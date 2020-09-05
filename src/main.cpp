@@ -25,7 +25,7 @@ void loop()
     data_byte_0++;
     byte stmp[1] = {data_byte_0};
 
-    Serial.print("In loop | ");
+    Serial.print("Writing CAN | ");
     for (int x=0; x<1; x++)
     {
         Serial.print(stmp[x]);
